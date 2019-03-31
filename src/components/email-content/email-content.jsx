@@ -8,7 +8,7 @@ import EmailBody from "./email-body";
 class EmailContent extends Component {
     render() {
         return (
-            <div style={{flex: 1, height: '100%', overflowY: 'scroll'}}>
+            <div style={{flex: 1, height: '100%', overflowY: 'auto'}}>
                 {this.props.email ? (
                     <>
                         <EmailMenu

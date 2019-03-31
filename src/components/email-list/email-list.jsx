@@ -31,7 +31,7 @@ class EmailList extends Component {
     }
 
     render() {
-        const overflowY = this.props.isLoading ? 'hidden' : 'scroll';
+        const overflowY = this.props.isLoading ? 'hidden' : 'auto';
         return (
             <div style={{
                 width: 250,
