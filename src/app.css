@@ -1,0 +1,35 @@
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.email-preview {
+    transition: all ease .2s;
+}
+
+.email-preview.is-unread {
+    background: #f0f0f0;
+}
+
+.email-preview:hover {
+    background: #f0f0f0;
+}
+
+.email-preview.is-unread:hover {
+    background: #e3e3e3;
+}
+
+.email-preview.is-selected,
+.email-preview.is-selected:hover {
+    background-color: #1890ff;
+}
+
+.email-preview.is-selected > * {
+    color: #fff;
+}
+
+.email-preview.is-unread > * {
+    font-weight: bold;
+}
