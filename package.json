@@ -16,7 +16,7 @@
   },
   "main": "main/main.js",
   "scripts": {
-    "start": "PORT=2228 craco start",
+    "start": "BROWSER=none PORT=2228 craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
