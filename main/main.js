@@ -25,7 +25,7 @@ function createWindow() {
         global.win = null
     });
 
-    const reactDevExtension = path.join(os.homedir(), '/Library/Application Support/Google/Chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/3.6.0_0');
+    const reactDevExtension = path.join(os.homedir(), '/Library/Application Support/Google/Chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/3.6.0_0/manifest.json');
     if (fs.existsSync(reactDevExtension)) {
         BrowserWindow.addDevToolsExtension(reactDevExtension);
     }
