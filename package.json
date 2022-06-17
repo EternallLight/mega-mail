@@ -33,7 +33,7 @@
   ],
   "devDependencies": {
     "@craco/craco": "^3.6.0",
-    "electron": "^4.1.1",
+    "electron": "^15.5.5",
     "electron-packager": "^13.1.1"
   }
 }
